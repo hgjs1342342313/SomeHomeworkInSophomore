@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.head{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    background-color: palevioletred;
+    color: white;
+    font-family: "MV Boli",fantasy;
+    font-size: 6em;
+    padding: 30px 0 30px 60px;
+}
+.head a{
+    font-size:0.5em;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 20px;
+    color: dodgerblue;
+}
+.head a:active{
+    background-color: lightblue;
+}
+.back{
+    display: inline-block;
+    position: relative;
+}
+.iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.linklist{
+    display: inline-block;
+    position:absolute;
+    margin: 5px 5px;
+    height: 960px;
+    width: 526px;
+    border: 3px solid palevioletred;
+    border-radius: 6px;
+    color: dodgerblue;
+}
+.linklist a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.section{
+    width: 526px;
+    background-color: #cccccc;
+}
+.info
+{
+    background-color: darkseagreen;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "MV Boli", fantasy;
+    border-style: outset;
+    text-align: center;
+}
